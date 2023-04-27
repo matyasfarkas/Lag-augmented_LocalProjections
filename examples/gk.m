@@ -2,10 +2,7 @@ clear;
 addpath('../functions/');
 
 % Empirical example
-% Based on Gertler & Karadi (AEJ:Macro 2015), DOI: 10.1257/mac.20130329
-
-% MPM 2020-07-11
-
+% Based on Jarocinski and Karadi `Deconstructing Monetary Policy Surprises - The Role of Information Shocks', American Economic Journal: Macroeconomics
 
 %% Settings
 
