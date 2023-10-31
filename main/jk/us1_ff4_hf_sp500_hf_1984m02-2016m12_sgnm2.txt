@@ -1,0 +1,2001 @@
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 1
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+[Warning: MATLAB has disabled some advanced graphics rendering features by switching to software OpenGL. For
+more information, click <a href="matlab:opengl('problems')">here</a>.] 
+correl.:     ff4_hf   sp500_hf 
+ff4_hf       1.0000    -0.4264 
+sp500_hf    -0.4264     1.0000 
+
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0517 0.4839 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 121
+start: 05-May-2023 09:51:08; total iterations: 20000
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kfsim_nan', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\kfsim_nan.m', 71)" style="font-weight:bold">kfsim_nan</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\kfsim_nan.m',71,0)">line 71</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kfsim_nan_VAR', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\kfsim_nan_VAR.m', 30)" style="font-weight:bold">kfsim_nan_VAR</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\kfsim_nan_VAR.m',30,0)">line 30</a>)
+[ydraw, loglik] = kfsim_nan(yy, dd, ZZ, WW, cc, TT, RR, a1, C1, ind_output);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('VAR_withiid1kf', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\VAR_withiid1kf.m', 256)" style="font-weight:bold">VAR_withiid1kf</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\VAR_withiid1kf.m',256,0)">line 256</a>)
+            ydraw = kfsim_nan_VAR(data.y, BB, Sigma, 2);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('JK_rep', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\JK_rep.m', 152)" style="font-weight:bold">JK_rep</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\JK_rep.m',152,0)">line 152</a>)
+res = VAR_withiid1kf(data, prior, gssettings);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 10)" style="font-weight:bold">jk</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',10,0)">line 10</a>)
+JK_rep
+} 
+The desktop configuration was not saved successfully
+{Operation terminated by the user.
+} 
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 1
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+[Warning: MATLAB has disabled some advanced graphics rendering features by switching to software OpenGL. For more information, click
+<a href="matlab:opengl('problems')">here</a>.] 
+correl.:     ff4_hf   sp500_hf 
+ff4_hf       1.0000    -0.4264 
+sp500_hf    -0.4264     1.0000 
+
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0517 0.4839 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 121
+start: 05-May-2023 11:08:22; total iterations: 20000
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+elapsed 01:32:36; remain 00:00:00; end 05-May-2023 12:40:59
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 4000
+elapsed 00:00:00; remain 00:00:13; end 05-May-2023 12:41:14; %failed: 0.00
+elapsed 00:00:09; remain 00:00:00; end 05-May-2023 12:41:10; %failed: 0.00
+total failures: 0
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 1
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+[Warning: MATLAB has disabled some advanced graphics rendering features by switching to software OpenGL. For more information, click
+<a href="matlab:opengl('problems')">here</a>.] 
+correl.:     ff4_hf   sp500_hf 
+ff4_hf       1.0000    -0.4264 
+sp500_hf    -0.4264     1.0000 
+
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0517 0.4839 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 121
+start: 08-May-2023 09:38:45; total iterations: 20000
+elapsed 00:23:16; remain 00:00:00; end 08-May-2023 10:02:02
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 4000
+elapsed 00:00:00; remain 00:00:15; end 08-May-2023 10:02:18; %failed: 0.00
+elapsed 00:00:08; remain 00:00:00; end 08-May-2023 10:02:11; %failed: 0.00
+total failures: 0
+isabled some advanced graphics rendering features by switching to software OpenGL. For more information, click
+<a href="matlab:opengl('problems')">here</a>.] 
+correl.:     ff4_hf   sp500_hf 
+ff4_hf       1.0000    -0.4264 
+sp500_hf    -0.4264     1.0000 
+
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0517 0.4839 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 121
+start: 08-May-2023 09:38:51; total iterations: 20000
+elapsed 00:25:15; remain 00:00:00; end 08-May-2023 10:04:06
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 4000
+elapsed 00:00:00; remain 00:00:26; end 08-May-2023 10:04:33; %failed: 0.00
+elapsed 00:00:07; remain 00:00:00; end 08-May-2023 10:04:14; %failed: 0.00
+total failures: 0
+Your MATLAB session has timed out.  All license keys have been returned.
+Your MATLAB session has timed out.  All license keys have been returned.
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 1
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+[Warning: MATLAB has disabled some advanced graphics rendering features
+by switching to software OpenGL. For more information, click <a href="matlab:opengl('problems')">here</a>.] 
+correl.:     ff4_hf   sp500_hf 
+ff4_hf       1.0000    -0.4264 
+sp500_hf    -0.4264     1.0000 
+
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0517 0.4839 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 121
+start: 11-May-2023 17:19:18; total iterations: 20000
+elapsed 00:52:03; remain 00:00:00; end 11-May-2023 18:11:21
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 4000
+elapsed 00:00:00; remain 00:00:11; end 11-May-2023 18:11:34; %failed: 0.00
+elapsed 00:00:08; remain 00:00:00; end 11-May-2023 18:11:30; %failed: 0.00
+total failures: 0
+save irfs_draws JK_res
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('save')" style="font-weight:bold">save</a>
+Variable 'JK_res' not found.
+} 
+save("pqfile.mat","p","q")
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('save')" style="font-weight:bold">save</a>
+Variable 'p' not found.
+} 
+save("JK_res.mat","irfs_draws")
+if system_dependent('IsDebugMode')==1, dbquit; end
+jk
+{Unrecognized function or variable 'horzs'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 12)" style="font-weight:bold">jk</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',12,0)">line 12</a>)
+irs_jk_orig = squeeze(quantile(irfs_draws(3,1,horzs,:),[0.5 alpha 1-alpha],4));
+} 
+jk
+{Unrecognized function or variable 'horzs'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 12)" style="font-weight:bold">jk</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',12,0)">line 12</a>)
+irs_jk_orig = squeeze(quantile(irfs_draws(3,1,horzs,:),[0.5 alpha 1-alpha],4));
+} 
+opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',12,0)
+jk
+{Unrecognized function or variable 'horzs'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 21)" style="font-weight:bold">jk</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',21,0)">line 21</a>)
+irs_jk_orig = squeeze(quantile(irfs_draws(resp_var,innov,horzs,:),[0.5 alpha 1-alpha],4));
+} 
+jk
+{Index in position 3 exceeds array bounds. Index must not exceed 36.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 22)" style="font-weight:bold">jk</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',22,0)">line 22</a>)
+irs_jk_orig = squeeze(quantile(irfs_draws(resp_var,innov,horzs,:),[0.5 alpha 1-alpha],4));
+} 
+jk
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0158 0.1602 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 11-May-2023 18:35:43; total iterations: 3000
+elapsed 00:09:29; remain 00:00:00; end 11-May-2023 18:45:13
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:02; end 11-May-2023 18:45:16; %failed: 0.00
+elapsed 00:00:02; remain 00:00:00; end 11-May-2023 18:45:15; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 60%
+ 90%
+ 70%
+ 80%
+100%
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Vectors must be the same length.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk>plot_band', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 206)" style="font-weight:bold">jk>plot_band</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',206,0)">line 206</a>)
+plot(x, [lower; upper], 'LineStyle', '--', 'Color', 'k');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 83)" style="font-weight:bold">jk</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',83,0)">line 83</a>)
+    plot_band(horzs, irs_jk_orig(:,1), ...
+} 
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',83,0)
+irs_jk_orig
+
+irs_jk_orig =
+
+    0.0477    0.0139    0.0753
+    0.0658    0.0108    0.1108
+    0.0651    0.0016    0.1205
+    0.0401   -0.0221    0.0988
+    0.0277   -0.0312    0.0858
+    0.0375   -0.0230    0.0940
+    0.0423   -0.0216    0.1011
+    0.0406   -0.0255    0.1022
+    0.0427   -0.0258    0.1054
+    0.0424   -0.0263    0.1063
+    0.0377   -0.0306    0.1021
+    0.0303   -0.0376    0.0934
+    0.0251   -0.0413    0.0869
+    0.0208   -0.0444    0.0824
+    0.0165   -0.0478    0.0776
+    0.0133   -0.0500    0.0735
+    0.0100   -0.0522    0.0692
+    0.0065   -0.0549    0.0653
+    0.0034   -0.0571    0.0604
+    0.0005   -0.0584    0.0558
+   -0.0022   -0.0585    0.0516
+   -0.0041   -0.0581    0.0479
+   -0.0060   -0.0584    0.0445
+   -0.0076   -0.0580    0.0410
+   -0.0092   -0.0577    0.0379
+   -0.0107   -0.0570    0.0349
+   -0.0117   -0.0562    0.0325
+   -0.0123   -0.0556    0.0296
+   -0.0131   -0.0548    0.0272
+   -0.0133   -0.0547    0.0248
+   -0.0137   -0.0539    0.0228
+   -0.0139   -0.0531    0.0214
+   -0.0141   -0.0523    0.0200
+   -0.0141   -0.0511    0.0184
+   -0.0140   -0.0503    0.0173
+   -0.0136   -0.0492    0.0166
+
+ irs_jk_orig(:,1)
+
+ans =
+
+    0.0477
+    0.0658
+    0.0651
+    0.0401
+    0.0277
+    0.0375
+    0.0423
+    0.0406
+    0.0427
+    0.0424
+    0.0377
+    0.0303
+    0.0251
+    0.0208
+    0.0165
+    0.0133
+    0.0100
+    0.0065
+    0.0034
+    0.0005
+   -0.0022
+   -0.0041
+   -0.0060
+   -0.0076
+   -0.0092
+   -0.0107
+   -0.0117
+   -0.0123
+   -0.0131
+   -0.0133
+   -0.0137
+   -0.0139
+   -0.0141
+   -0.0141
+   -0.0140
+   -0.0136
+
+ disp('Lag-augmented LP: bootstrapping...');
+Lag-augmented LP: bootstrapping...
+    [irs_lp_la, ~, cis_dm_lp_la, cis_boot_lp_la] = ...
+        ir_estim(Y, p, horzs, ...
+        'estimator', 'lp', 'lag_aug', true, ...
+        'resp_var', resp_var, 'innov', innov, 'alpha', alpha, ...
+        'bootstrap', 'var', 'boot_num', boot_num, ...
+        'boot_workers', boot_workers, 'verbose', true);
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 60%
+ 70%
+ 90%
+ 80%
+100%
+    
+    figure('visible','off');
+    subplot(4,1,1);
+    plot_band(horzs, irs_lp_la, ...
+        cis_dm_lp_la(1,:), cis_dm_lp_la(2,:), ...
+        ['Lag-augmented LP, delta method interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+{Unrecognized function or variable 'plot_band'.
+} 
+jk
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0158 0.1602 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 09:43:23; total iterations: 3000
+elapsed 00:04:29; remain 00:00:00; end 12-May-2023 09:47:52
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:02; end 12-May-2023 09:47:55; %failed: 0.00
+elapsed 00:00:02; remain 00:00:00; end 12-May-2023 09:47:54; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 70%
+ 60%
+ 90%
+ 80%
+100%
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Vectors must be the same length.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk>plot_band', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 206)" style="font-weight:bold">jk>plot_band</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',206,0)">line 206</a>)
+plot(x, [lower; upper], 'LineStyle', '--', 'Color', 'k');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 83)" style="font-weight:bold">jk</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',83,0)">line 83</a>)
+    plot_band(horzs, irs_jk_orig(horzs,1), ...
+} 
+opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',83,0)
+plot_band(horzs, irs_jk_orig(horzs,1), ...
+        irs_jk_orig(horzs,2), irs_jk_orig(horzs,3), ...
+        ['Jarocinski/Karadi Baseline with 2SR, percentile interval published results'], ...
+        plot_ylim, plot_xtick)
+{Unrecognized function or variable 'plot_band'.
+} 
+irs_jk_orig(horzs,1)
+
+ans =
+
+    0.0477
+    0.0658
+    0.0651
+    0.0401
+    0.0277
+    0.0375
+    0.0423
+    0.0406
+    0.0427
+    0.0424
+    0.0377
+    0.0303
+    0.0251
+    0.0208
+    0.0165
+    0.0133
+    0.0100
+    0.0065
+    0.0034
+    0.0005
+   -0.0022
+   -0.0041
+   -0.0060
+   -0.0076
+   -0.0092
+   -0.0107
+   -0.0117
+   -0.0123
+   -0.0131
+   -0.0133
+   -0.0137
+   -0.0139
+   -0.0141
+   -0.0141
+   -0.0140
+   -0.0136
+
+size(irs_jk_orig(horzs,1))
+
+ans =
+
+    36     1
+
+size(irs_lp_la)
+
+ans =
+
+     1    36
+
+jk
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0158 0.1602 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 09:52:44; total iterations: 3000
+elapsed 00:10:58; remain 00:00:00; end 12-May-2023 10:03:42
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:03; end 12-May-2023 10:03:46; %failed: 0.00
+elapsed 00:00:02; remain 00:00:00; end 12-May-2023 10:03:44; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 60%
+ 70%
+ 80%
+ 90%
+100%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 40%
+ 20%
+ 50%
+ 70%
+ 60%
+ 90%
+ 80%
+100%
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Vectors must be the same length.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk>plot_band', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 206)" style="font-weight:bold">jk>plot_band</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',206,0)">line 206</a>)
+plot(x, [lower; upper], 'LineStyle', '--', 'Color', 'k');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 151)" style="font-weight:bold">jk</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',151,0)">line 151</a>)
+    plot_band(horzs, irs_jk_orig(:,1), ...
+} 
+opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',151,0)
+irs_lp_la
+
+irs_lp_la =
+
+  Columns 1 through 7
+
+    0.6298    0.9510   -1.2900   -2.7359   -2.8001   -2.2672   -1.4926
+
+  Columns 8 through 14
+
+    0.1158    1.7304    0.4186   -0.2217    0.4610   -1.2571   -1.7327
+
+  Columns 15 through 21
+
+    0.5944    2.3777    4.0615    2.8527    0.6706    0.5620    0.7740
+
+  Columns 22 through 28
+
+    0.5245    0.7361    0.9054    1.4241    0.7725    1.5087    0.7702
+
+  Columns 29 through 35
+
+    0.4220   -1.6741   -2.4854   -2.3229   -2.2850   -2.3226   -2.6095
+
+  Column 36
+
+   -3.1447
+
+irs_jk_orig(horzs,1)
+
+ans =
+
+    0.0477
+    0.0658
+    0.0651
+    0.0401
+    0.0277
+    0.0375
+    0.0423
+    0.0406
+    0.0427
+    0.0424
+    0.0377
+    0.0303
+    0.0251
+    0.0208
+    0.0165
+    0.0133
+    0.0100
+    0.0065
+    0.0034
+    0.0005
+   -0.0022
+   -0.0041
+   -0.0060
+   -0.0076
+   -0.0092
+   -0.0107
+   -0.0117
+   -0.0123
+   -0.0131
+   -0.0133
+   -0.0137
+   -0.0139
+   -0.0141
+   -0.0141
+   -0.0140
+   -0.0136
+
+plot(irs_jk_loop,'DisplayName','irs_jk_loop')
+  figure('visible','on');
+    subplot(4,1,1);
+    plot_band(horzs, irs_lp_la, ...
+        cis_dm_lp_la(1,:), cis_dm_lp_la(2,:), ...
+        ['Lag-augmented LP, delta method interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+{Unrecognized function or variable 'plot_band'.
+} 
+
+function plot_band(x, y, lower, upper, plot_title, plot_ylim, plot_xtick)
+ function plot_band(x, y, lower, upper, plot_title, plot_ylim, plot_xtick)
+ ↑
+{Error: Function definition are not supported in this context.
+Functions can only be created as local or nested functions in code
+files.
+} 
+jk
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0158 0.1602 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 10:11:11; total iterations: 3000
+elapsed 00:15:07; remain 00:00:00; end 12-May-2023 10:26:18
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:02; end 12-May-2023 10:26:21; %failed: 0.00
+elapsed 00:00:01; remain 00:00:00; end 12-May-2023 10:26:20; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 70%
+ 60%
+ 80%
+ 90%
+100%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 40%
+ 20%
+ 50%
+ 70%
+ 60%
+ 80%
+ 90%
+100%
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0161 0.1625 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 10:27:10; total iterations: 3000
+elapsed 00:16:12; remain 00:00:00; end 12-May-2023 10:43:22
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:02; end 12-May-2023 10:43:25; %failed: 0.00
+elapsed 00:00:02; remain 00:00:00; end 12-May-2023 10:43:24; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 20%
+ 30%
+ 40%
+ 50%
+ 70%
+ 60%
+ 80%
+ 90%
+100%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 40%
+ 20%
+ 50%
+ 70%
+ 60%
+ 80%
+ 90%
+100%
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0164 0.1649 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 10:44:05; total iterations: 3000
+elapsed 00:19:05; remain 00:00:00; end 12-May-2023 11:03:11
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:02; end 12-May-2023 11:03:14; %failed: 0.00
+elapsed 00:00:01; remain 00:00:00; end 12-May-2023 11:03:13; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 70%
+ 80%
+ 60%
+ 90%
+100%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 40%
+ 20%
+ 50%
+ 60%
+ 70%
+ 90%
+ 80%
+100%
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0167 0.1677 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 11:03:53; total iterations: 3000
+elapsed 00:15:40; remain 00:00:00; end 12-May-2023 11:19:33
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:02; end 12-May-2023 11:19:35; %failed: 0.00
+elapsed 00:00:02; remain 00:00:00; end 12-May-2023 11:19:35; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 60%
+ 70%
+ 80%
+ 90%
+100%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 40%
+ 20%
+ 50%
+ 60%
+ 70%
+ 90%
+ 80%
+100%
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0171 0.1708 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 11:20:12; total iterations: 3000
+elapsed 00:11:35; remain 00:00:00; end 12-May-2023 11:31:48
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:02; end 12-May-2023 11:31:50; %failed: 0.00
+elapsed 00:00:01; remain 00:00:00; end 12-May-2023 11:31:50; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 70%
+ 60%
+ 80%
+100%
+ 90%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 40%
+ 20%
+ 50%
+ 60%
+ 70%
+ 80%
+ 90%
+100%
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0176 0.1743 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 11:32:25; total iterations: 3000
+elapsed 00:13:33; remain 00:00:00; end 12-May-2023 11:45:58
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:02; end 12-May-2023 11:46:00; %failed: 0.00
+elapsed 00:00:02; remain 00:00:00; end 12-May-2023 11:46:00; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 60%
+ 70%
+ 80%
+ 90%
+100%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 40%
+ 20%
+ 50%
+ 60%
+ 70%
+ 80%
+ 90%
+100%
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0181 0.1784 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 11:46:44; total iterations: 3000
+elapsed 00:19:08; remain 00:00:00; end 12-May-2023 12:05:53
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:01; end 12-May-2023 12:05:55; %failed: 0.00
+elapsed 00:00:02; remain 00:00:00; end 12-May-2023 12:05:55; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 70%
+ 80%
+ 60%
+ 90%
+100%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 40%
+ 20%
+ 50%
+ 60%
+ 70%
+ 90%
+ 80%
+100%
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0187 0.1831 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 12:06:32; total iterations: 3000
+elapsed 00:11:21; remain 00:00:00; end 12-May-2023 12:17:53
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:01; end 12-May-2023 12:17:55; %failed: 0.00
+elapsed 00:00:02; remain 00:00:00; end 12-May-2023 12:17:55; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 70%
+ 80%
+ 60%
+100%
+ 90%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 40%
+ 20%
+ 50%
+ 70%
+ 60%
+ 90%
+ 80%
+100%
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0194 0.1885 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 12:18:31; total iterations: 3000
+elapsed 00:12:20; remain 00:00:00; end 12-May-2023 12:30:51
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:01; end 12-May-2023 12:30:53; %failed: 0.00
+elapsed 00:00:01; remain 00:00:00; end 12-May-2023 12:30:53; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 70%
+ 60%
+ 80%
+100%
+ 90%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 20%
+ 40%
+ 50%
+ 70%
+ 60%
+ 90%
+ 80%
+100%
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0203 0.1950 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 12:31:30; total iterations: 3000
+elapsed 00:17:30; remain 00:00:00; end 12-May-2023 12:49:00
+    @(irfs)irfs(1,imonpol,1)>0&&irfs(2,imonpol,1)<0&&irfs(1,inews,1)>0&&irfs(2,inews,1)>0
+
+Computing sign restrictions
+Number of draws of the VAR parameters: 1000
+elapsed 00:00:00; remain 00:00:01; end 12-May-2023 12:49:02; %failed: 0.00
+elapsed 00:00:01; remain 00:00:00; end 12-May-2023 12:49:02; %failed: 0.00
+total failures: 0
+Lag-augmented LP: bootstrapping...
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 60%
+ 70%
+ 80%
+ 90%
+100%
+Lag-augmented VAR: bootstrapping...
+ 30%
+ 10%
+ 20%
+ 40%
+ 50%
+ 60%
+ 70%
+ 80%
+ 90%
+100%
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 0
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
+ 
+VAR_withiid1kf
+lags: 12
+Minnesota prior
+Note: for a proper prior need sigma_deg > 6
+Note: for E(Sigma) to exist need sigma_deg > 8
+       tightness: 0.2000
+           decay: 1
+         mvector: [7×1 int32]
+        exog_std: 100000
+      sigma_data: [395×7 double]
+           sigma: [0.0213 0.2029 0.1970 3.4035 0.5266 0.0996 0.2351]
+    sigma_arlags: 12
+
+              lags: 12
+         minnesota: [1×1 struct]
+                Nm: 2
+                 Q: [425×425 double]
+              Qinv: [425×425 double]
+                 B: [85×5 double]
+    QinvB_reshaped: [85×5 double]
+                 v: 9
+                 S: [7×7 double]
+
+Sample with T = 383 and N = 7.
+Y(1,1) = NaN; Y(T,N) = -0.3336
+Number of missing values: 120
+start: 12-May-2023 12:49:46; total iterations: 3000
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kfsim_nan')" style="font-weight:bold">kfsim_nan</a>
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kfsim_nan_VAR', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\kfsim_nan_VAR.m', 30)" style="font-weight:bold">kfsim_nan_VAR</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\kfsim_nan_VAR.m',30,0)">line 30</a>)
+[ydraw, loglik] = kfsim_nan(yy, dd, ZZ, WW, cc, TT, RR, a1, C1, ind_output);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('VAR_withiid1kf', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\VAR_withiid1kf.m', 256)" style="font-weight:bold">VAR_withiid1kf</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\VAR_withiid1kf.m',256,0)">line 256</a>)
+            ydraw = kfsim_nan_VAR(data.y, BB, Sigma, 2);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('JK_loop', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\JK_loop.m', 126)" style="font-weight:bold">JK_loop</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\JK_loop.m',126,0)">line 126</a>)
+res = VAR_withiid1kf(data, prior, gssettings);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jk', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m', 56)" style="font-weight:bold">jk</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\jk.m',56,0)">line 56</a>)
+    JK_loop;
+} 
+{Operation terminated by user during matlab.graphics.controls.internal.PostUpdatePlugin.doCacheLoad
+
+
+In matlab.graphics.controls.internal.PostUpdatePlugin>@()matlab.graphics.controls.internal.PostUpdatePlugin.doCacheLoad(canvasParent)
+} 
+irs_jk_orig
+
+irs_jk_orig =
+
+    0.0477    0.0139    0.0753
+    0.0658    0.0108    0.1108
+    0.0651    0.0016    0.1205
+    0.0401   -0.0221    0.0988
+    0.0277   -0.0312    0.0858
+    0.0375   -0.0230    0.0940
+    0.0423   -0.0216    0.1011
+    0.0406   -0.0255    0.1022
+    0.0427   -0.0258    0.1054
+    0.0424   -0.0263    0.1063
+    0.0377   -0.0306    0.1021
+    0.0303   -0.0376    0.0934
+    0.0251   -0.0413    0.0869
+    0.0208   -0.0444    0.0824
+    0.0165   -0.0478    0.0776
+    0.0133   -0.0500    0.0735
+    0.0100   -0.0522    0.0692
+    0.0065   -0.0549    0.0653
+    0.0034   -0.0571    0.0604
+    0.0005   -0.0584    0.0558
+   -0.0022   -0.0585    0.0516
+   -0.0041   -0.0581    0.0479
+   -0.0060   -0.0584    0.0445
+   -0.0076   -0.0580    0.0410
+   -0.0092   -0.0577    0.0379
+   -0.0107   -0.0570    0.0349
+   -0.0117   -0.0562    0.0325
+   -0.0123   -0.0556    0.0296
+   -0.0131   -0.0548    0.0272
+   -0.0133   -0.0547    0.0248
+   -0.0137   -0.0539    0.0228
+   -0.0139   -0.0531    0.0214
+   -0.0141   -0.0523    0.0200
+   -0.0141   -0.0511    0.0184
+   -0.0140   -0.0503    0.0173
+   -0.0136   -0.0492    0.0166
+
+plot_band(horzs, irs_jk_orig(horzs,1)', ...
+        irs_jk_orig(horzs,2)', irs_jk_orig(horzs,3)', ...
+        ['JK Baseline with 2SR, percentile interval published results'], ...
+        plot_ylim, plot_xtick);
+{Unrecognized function or variable 'plot_band'.
+} 
+plot_band(horzs, irs_jk_orig(horzs,1)', ...
+irs_jk_orig(horzs,2)', irs_jk_orig(horzs,3)', ...
+['JK Baseline with 2SR, percentile interval published results'], ...
+plot_ylim, plot_xtick);
+drawnow
+figure
+ subplot(4,1,1);
+    plot_band(horzs, irs_lp_la, ...
+        cis_dm_lp_la(1,:), cis_dm_lp_la(2,:), ...
+        ['Lag-augmented LP, delta method interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    subplot(4,1,2);
+    plot_band(horzs, irs_lp_la, ...
+        cis_boot_lp_la(1,:,3), cis_boot_lp_la(2,:,3), ...
+        ['Lag-augmented LP, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    
+          subplot(4,1,3);
+    plot_band(horzs, irs_jk_orig(horzs,1)', ...
+        irs_jk_orig(horzs,2)', irs_jk_orig(horzs,3)', ...
+        ['JK Baseline with 2SR, percentile interval published results'], ...
+        plot_ylim, plot_xtick);
+    
+    
+     subplot(4,1,4);
+    plot_band(horzs, irs_jk_loop(horzs,1)'*100, ...
+        irs_jk_loop(horzs,2)'*100, irs_jk_loop(horzs,3)'*100, ...
+        ['Jarocinski/Karadi Baseline with 2SR, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+ disp('Lag-augmented LP: bootstrapping...');
+Lag-augmented LP: bootstrapping...
+    [irs_lp_la, ~, cis_dm_lp_la, cis_boot_lp_la] = ...
+        ir_estim(Y, p, horzs, ...
+        'estimator', 'lp', 'lag_aug', true, ...
+        'resp_var', resp_var, 'innov', innov, 'alpha', alpha, ...
+        'bootstrap', 'var', 'boot_num', boot_num, ...
+        'boot_workers', boot_workers, 'verbose', true);
+ 10%
+ 30%
+ 40%
+ 20%
+ 50%
+ 70%
+ 60%
+ 80%
+100%
+ 90%
+    
+    figure('visible','off');
+    subplot(4,1,1);
+    plot_band(horzs, irs_lp_la, ...
+        cis_dm_lp_la(1,:), cis_dm_lp_la(2,:), ...
+        ['Lag-augmented LP, delta method interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    subplot(4,1,2);
+    plot_band(horzs, irs_lp_la, ...
+        cis_boot_lp_la(1,:,3), cis_boot_lp_la(2,:,3), ...
+        ['Lag-augmented LP, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    
+          subplot(4,1,3);
+    plot_band(horzs, irs_jk_orig(horzs,1)'*100, ...
+        irs_jk_orig(horzs,2)'*100, irs_jk_orig(horzs,3)'*100, ...
+        ['JK Baseline with 2SR, percentile interval published results'], ...
+        plot_ylim, plot_xtick);
+    
+    
+     subplot(4,1,4);
+    plot_band(horzs, irs_jk_loop(horzs,1)'*100, ...
+        irs_jk_loop(horzs,2)'*100, irs_jk_loop(horzs,3)'*100, ...
+        ['Jarocinski/Karadi Baseline with 2SR, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+figure
+  subplot(4,1,1);
+    plot_band(horzs, irs_lp_la, ...
+        cis_dm_lp_la(1,:), cis_dm_lp_la(2,:), ...
+        ['Lag-augmented LP, delta method interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    subplot(4,1,2);
+    plot_band(horzs, irs_lp_la, ...
+        cis_boot_lp_la(1,:,3), cis_boot_lp_la(2,:,3), ...
+        ['Lag-augmented LP, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    
+          subplot(4,1,3);
+    plot_band(horzs, irs_jk_orig(horzs,1)'*100, ...
+        irs_jk_orig(horzs,2)'*100, irs_jk_orig(horzs,3)'*100, ...
+        ['JK Baseline with 2SR, percentile interval published results'], ...
+        plot_ylim, plot_xtick);
+    
+    
+     subplot(4,1,4);
+    plot_band(horzs, irs_jk_loop(horzs,1)'*100, ...
+        irs_jk_loop(horzs,2)'*100, irs_jk_loop(horzs,3)'*100, ...
+        ['Jarocinski/Karadi Baseline with 2SR, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    
+ subplot(4,1,1);
+    plot_band(horzs, irs_lp_la, ...
+        cis_dm_lp_la(1,:), cis_dm_lp_la(2,:), ...
+        ['Lag-augmented LP, delta method interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    subplot(4,1,2);
+    plot_band(horzs, irs_lp_la, ...
+        cis_boot_lp_la(1,:,3), cis_boot_lp_la(2,:,3), ...
+        ['Lag-augmented LP, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    
+          subplot(4,1,3);
+    plot_band(horzs, irs_jk_orig(horzs,1)'*100, ...
+        irs_jk_orig(horzs,2)'*100, irs_jk_orig(horzs,3)'*100, ...
+        ['JK Baseline with 2SR, percentile interval published results']);
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot_band', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\plot_band.m', 12)" style="font-weight:bold">plot_band</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\plot_band.m',12,0)">line 12</a>)
+ylim(plot_ylim);
+} 
+plot_xtick
+
+plot_xtick =
+
+     1     6    12    18    24    30    36
+
+
+ylim
+
+ans =
+
+   -5.8549   12.0497
+
+min(min(irs_jk_orig))
+
+ans =
+
+   -0.0585
+
+[min(min(irs_jk_orig)), max(max(irs_jk_orig)) ]
+
+ans =
+
+   -0.0585    0.1205
+
+subplot(4,1,1);
+    plot_band(horzs, irs_lp_la, ...
+        cis_dm_lp_la(1,:), cis_dm_lp_la(2,:), ...
+        ['Lag-augmented LP, delta method interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    subplot(4,1,2);
+    plot_band(horzs, irs_lp_la, ...
+        cis_boot_lp_la(1,:,3), cis_boot_lp_la(2,:,3), ...
+        ['Lag-augmented LP, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    
+          subplot(4,1,3);
+    plot_band(horzs, irs_jk_orig(horzs,1)'*100, ...
+        irs_jk_orig(horzs,2)'*100, irs_jk_orig(horzs,3)'*100, ...
+        ['JK Baseline with 2SR, percentile interval published results'], [min(min(irs_jk_orig)), max(max(irs_jk_orig)) ]*100, plot_xtick);
+    
+    
+     subplot(4,1,4);
+    plot_band(horzs, irs_jk_loop(horzs,1)'*100, ...
+        irs_jk_loop(horzs,2)'*100, irs_jk_loop(horzs,3)'*100, ...
+        ['Jarocinski/Karadi Baseline with 2SR, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ]);
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot_band', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\plot_band.m', 12)" style="font-weight:bold">plot_band</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\plot_band.m',12,0)">line 12</a>)
+ylim(plot_ylim);
+} 
+ subplot(4,1,1);
+    plot_band(horzs, irs_lp_la, ...
+        cis_dm_lp_la(1,:), cis_dm_lp_la(2,:), ...
+        ['Lag-augmented LP, delta method interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    subplot(4,1,2);
+    plot_band(horzs, irs_lp_la, ...
+        cis_boot_lp_la(1,:,3), cis_boot_lp_la(2,:,3), ...
+        ['Lag-augmented LP, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    
+          subplot(4,1,3);
+    plot_band(horzs, irs_jk_orig(horzs,1)'*100, ...
+        irs_jk_orig(horzs,2)'*100, irs_jk_orig(horzs,3)'*100, ...
+        ['JK Baseline with 2SR, percentile interval published results'], [min(min(irs_jk_orig)), max(max(irs_jk_orig)) ]*100, plot_xtick);
+    
+    
+     subplot(4,1,4);
+    plot_band(horzs, irs_jk_loop(horzs,1)'*100, ...
+        irs_jk_loop(horzs,2)'*100, irs_jk_loop(horzs,3)'*100, ...
+        ['Jarocinski/Karadi Baseline with 2SR, percentile-t interval with daily AR(1) =' num2str(rhod(k)), ...
+         [min(min(irs_jk_orig)), max(max(irs_jk_orig)) ]*100, plot_xtick]);
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot_band', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\plot_band.m', 12)" style="font-weight:bold">plot_band</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\plot_band.m',12,0)">line 12</a>)
+ylim(plot_ylim);
+} 
+plot_ylim
+
+plot_ylim =
+
+    -5     5
+
+[min(min(irs_jk_orig)), max(max(irs_jk_orig)) ]*100
+
+ans =
+
+   -5.8549   12.0497
+
+plot_xtick
+
+plot_xtick =
+
+     1     6    12    18    24    30    36
+
+    subplot(4,1,1);
+    plot_band(horzs, irs_lp_la, ...
+        cis_dm_lp_la(1,:), cis_dm_lp_la(2,:), ...
+        ['Lag-augmented LP, delta method interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    subplot(4,1,2);
+    plot_band(horzs, irs_lp_la, ...
+        cis_boot_lp_la(1,:,3), cis_boot_lp_la(2,:,3), ...
+        ['Lag-augmented LP, percentile-t interval with daily AR(1) =' num2str(rhod(k)) ], ...
+        plot_ylim, plot_xtick);
+    
+          subplot(4,1,3);
+    plot_band(horzs, irs_jk_orig(horzs,1)'*100, ...
+        irs_jk_orig(horzs,2)'*100, irs_jk_orig(horzs,3)'*100, ...
+        ['JK Baseline with 2SR, percentile interval published results'], ...
+        [min(min(irs_jk_orig)), max(max(irs_jk_orig)) ]*100, plot_xtick);
+    
+    
+     subplot(4,1,4);
+    plot_band(horzs, irs_jk_loop(horzs,1)'*100, ...
+        irs_jk_loop(horzs,2)'*100, irs_jk_loop(horzs,3)'*100, ...
+        ['Jarocinski/Karadi Baseline with 2SR, percentile-t interval with daily AR(1) =' num2str(rhod(k)), ...
+         [min(min(irs_jk_orig)), max(max(irs_jk_orig)) ]*100, plot_xtick]);
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot_band', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\plot_band.m', 12)" style="font-weight:bold">plot_band</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\examples\plot_band.m',12,0)">line 12</a>)
+ylim(plot_ylim);
+} 
+plot_ylim
+
+plot_ylim =
+
+    -5     5
+
+[min(min(irs_jk_orig)) max(max(irs_jk_orig)) ]*100
+
+ans =
+
+   -5.8549   12.0497
+
+[min(min(irs_jk_orig)) max(max(irs_jk_orig)) ]*100    plot_band(horzs, irs_jk_orig(horzs,1)'*100, ...
+ [min(min(irs_jk_orig)) max(max(irs_jk_orig)) ]*100    plot_band(horzs, irs_jk_orig(horzs,1)'*100, ...
+                                                       ↑
+{Invalid expression. Check for missing multiplication operator, missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+    plot_band(horzs, irs_jk_orig(horzs,1)'*100, ...
+        irs_jk_orig(horzs,2)'*100, irs_jk_orig(horzs,3)'*100, ...
+        ['JK Baseline with 2SR, percentile interval published results'], ...
+        [min(min(irs_jk_orig)) max(max(irs_jk_orig)) ]*100, plot_xtick);
+    
+plot_irfs_draws(irfs_draws, data.Nm+1:min(N,data.Nm+ny1), ss, varnames_nice, varnames, shocknames_nice, idscheme, qtoplot, [0 0 1], '', ylimits, transf);
+{Unrecognized function or variable 'varnames_nice'.
+} 
+plot_irfs_draws(irfs_draws, data.Nm+1:min(N,data.Nm+ny1), ss, varnames, varnames, shocknames_nice, idscheme, qtoplot, [0 0 1], '', ylimits, transf);
+{Unrecognized function or variable 'varnames'.
+} 
+plot_irfs_draws(irfs_draws, data.Nm+1:min(N,data.Nm+ny1), ss, [], [], shocknames_nice, idscheme, qtoplot, [0 0 1], '', ylimits, transf);
+{Unrecognized function or variable 'shocknames_nice'.
+} 
+plot_irfs_draws(irfs_draws, data.Nm+1:min(N,data.Nm+ny1), ss, [], [], ], idscheme, qtoplot, [0 0 1], '', ylimits, transf);
+ plot_irfs_draws(irfs_draws, data.Nm+1:min(N,data.Nm+ny1), ss, [], [], ], idscheme, qtoplot, [0 0 1], '', ylimits, transf);
+                                                                       ↑
+{Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched delimiters.
+} 
+plot_irfs_draws(irfs_draws, data.Nm+1:min(N,data.Nm+ny1), ss, [], [], [], idscheme, qtoplot, [0 0 1], '', ylimits, transf);
+{Unrecognized function or variable 'qtoplot'.
+} 
+plot_irfs_draws(irfs_draws, data.Nm+1:min(N,data.Nm+ny1), ss, [], [], [], idscheme, [0.1 0.5 0.9], [0 0 1], '', ylimits, transf);
+{Unrecognized function or variable 'ylimits'.
+} 
+plot_irfs_draws(irfs_draws, data.Nm+1:min(N,data.Nm+ny1), ss, [], [], [], idscheme, [0.1 0.5 0.9], [0 0 1], '', [], transf);
+{Unrecognized function or variable 'transf'.
+} 
+plot_irfs_draws(irfs_draws, data.Nm+1:min(N,data.Nm+ny1), ss, [], [], [], idscheme, [0.1 0.5 0.9], [0 0 1], '', [], nan(N,2));
+{Brace indexing is not supported for variables of this type.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot_irfs_draws', '\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\plot_irfs_draws.m', 120)" style="font-weight:bold">plot_irfs_draws</a> (<a href="matlab: opentoline('\\gimecb01\data\ECB business areas\DGE\DMP\MSY\Strategy Issues Section\Personal Folders\Matyas\2023\LProbustness\Lag-augmented_LocalProjections-master\functions\plot_irfs_draws.m',120,0)">line 120</a>)
+            if is==1, ylabel(strrep(ynames_plot{v},'_',' ')), end
+} 
+% This script replicates the results in:
+% Jarocinski, Karadi, Deconstructing Monetary Policy Surprises - The Role 
+% of Information Shocks, forthcoming in the AEJ:Macroeconomics.
+%
+% The script estimates a monthly VAR with high-frequency monetary policy
+% surprises and identifies shocks with sign restrictions.
+% The different results in the paper can be obtained by uncommenting the
+% appropriate lines.
+clear all, close all
+
+% SAMPLE AND DATA: spl, modname, addvar
+spl = [1984 2; 2016 12];
+%spl = [1984 2; 2008 12];% Dec2008 ZLB reached
+%spl = [1990 2; 2016 12];% Feb1999 surprises start
+%spl = [1979 7; 2016 12];% GertlerKaradi2015 sample 
+
+modname = 'us1'; %'us1','ea1','us2','ea2'
+addvar = ''; %'exp_gdp_12m','exp_cpi_12m','bkeven05','gs10','sven5f5'
+
+% IDENTIFICATION: idscheme, mnames
+idscheme = 'sgnm2'; %'chol','sgnm2','sgnm2strg','supdem'
+
+mnames = {'ff4_hf','sp500_hf'}; % US baseline
+%mnames = {'ff4_hf'};
+%mnames = {'pmnegm_ff4sp500','pmposm_ff4sp500'}; % poor man's sign restrictions
+%mnames = {'ff4_hf','sp500_hf','dbkeven02_d'}; % for supdem identification
+%mnames = {'pc1ff1_hf','usstocks1_hf'}; % VAR with factors (Online Appendix C.4)
+%mnames = {'pmnegm_pc1ff1usstocks1','pmposm_pc1ff1usstocks1'}; % VAR with factors, poor man's shocks (Online Appendix C.4)
+
+%mnames = {'eureon3m_hf','stoxx50_hf'}; % euro area baseline
+%mnames = {'eureon3m_hf'};
+%mnames = {'pmnegm_eureon3mstoxx50','pmposm_eureon3mstoxx50'}; % poor man's sign restrictions
+%mnames = {'eureon3m_hf','stoxx50_hf','deurinflswap2y_d'}; % for supdem identification
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PRIOR
+prior.lags = 12;
+prior.minnesota.tightness = .2;
+prior.minnesota.decay = 1;
+prior.Nm = length(mnames);
+
+% create the output folder based on the calling filename
+st = dbstack; pathout = st(end).name; clear st 
+{Array indices must be positive integers or logical values.
+} 
+load('JK_res.mat')
+%% identification
+MAlags = 36;
+N = length(data.names);
+{Unable to resolve the name 'data.names'.
+} 
+% This script replicates the results in:
+% Jarocinski, Karadi, Deconstructing Monetary Policy Surprises - The Role 
+% of Information Shocks, forthcoming in the AEJ:Macroeconomics.
+%
+% The script estimates a monthly VAR with high-frequency monetary policy
+% surprises and identifies shocks with sign restrictions.
+% The different results in the paper can be obtained by uncommenting the
+% appropriate lines.
+% clear all, close all
+% addpath('../functions/');
+
+% SAMPLE AND DATA: spl, modname, addvar
+spl = [1984 2; 2016 12];
+%spl = [1984 2; 2008 12];% Dec2008 ZLB reached
+%spl = [1990 2; 2016 12];% Feb1999 surprises start
+%spl = [1979 7; 2016 12];% GertlerKaradi2015 sample 
+
+modname = 'us1'; %'us1','ea1','us2','ea2'
+addvar = ''; %'exp_gdp_12m','exp_cpi_12m','bkeven05','gs10','sven5f5'
+
+% IDENTIFICATION: idscheme, mnames
+idscheme = 'sgnm2'; %'chol','sgnm2','sgnm2strg','supdem'
+
+mnames = {'ff4_hf','sp500_hf'}; % US baseline
+%mnames = {'ff4_hf'};
+%mnames = {'pmnegm_ff4sp500','pmposm_ff4sp500'}; % poor man's sign restrictions
+%mnames = {'ff4_hf','sp500_hf','dbkeven02_d'}; % for supdem identification
+%mnames = {'pc1ff1_hf','usstocks1_hf'}; % VAR with factors (Online Appendix C.4)
+%mnames = {'pmnegm_pc1ff1usstocks1','pmposm_pc1ff1usstocks1'}; % VAR with factors, poor man's shocks (Online Appendix C.4)
+
+%mnames = {'eureon3m_hf','stoxx50_hf'}; % euro area baseline
+%mnames = {'eureon3m_hf'};
+%mnames = {'pmnegm_eureon3mstoxx50','pmposm_eureon3mstoxx50'}; % poor man's sign restrictions
+%mnames = {'eureon3m_hf','stoxx50_hf','deurinflswap2y_d'}; % for supdem identification
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PRIOR
+prior.lags = 12;
+prior.minnesota.tightness = .2;
+prior.minnesota.decay = 1;
+prior.Nm = length(mnames);
+
+% create the output folder based on the calling filename
+st = dbstack; pathout = st(end).name; clear st 
+{Array indices must be positive integers or logical values.
+} 
+clear all, close all
+
+% SAMPLE AND DATA: spl, modname, addvar
+spl = [1984 2; 2016 12];
+%spl = [1984 2; 2008 12];% Dec2008 ZLB reached
+%spl = [1990 2; 2016 12];% Feb1999 surprises start
+%spl = [1979 7; 2016 12];% GertlerKaradi2015 sample 
+
+modname = 'us1'; %'us1','ea1','us2','ea2'
+addvar = ''; %'exp_gdp_12m','exp_cpi_12m','bkeven05','gs10','sven5f5'
+
+% IDENTIFICATION: idscheme, mnames
+idscheme = 'sgnm2'; %'chol','sgnm2','sgnm2strg','supdem'
+
+mnames = {'ff4_hf','sp500_hf'}; % US baseline
+%mnames = {'ff4_hf'};
+%mnames = {'pmnegm_ff4sp500','pmposm_ff4sp500'}; % poor man's sign restrictions
+%mnames = {'ff4_hf','sp500_hf','dbkeven02_d'}; % for supdem identification
+%mnames = {'pc1ff1_hf','usstocks1_hf'}; % VAR with factors (Online Appendix C.4)
+%mnames = {'pmnegm_pc1ff1usstocks1','pmposm_pc1ff1usstocks1'}; % VAR with factors, poor man's shocks (Online Appendix C.4)
+
+%mnames = {'eureon3m_hf','stoxx50_hf'}; % euro area baseline
+%mnames = {'eureon3m_hf'};
+%mnames = {'pmnegm_eureon3mstoxx50','pmposm_eureon3mstoxx50'}; % poor man's sign restrictions
+%mnames = {'eureon3m_hf','stoxx50_hf','deurinflswap2y_d'}; % for supdem identification
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PRIOR
+prior.lags = 12;
+prior.minnesota.tightness = .2;
+prior.minnesota.decay = 1;
+prior.Nm = length(mnames);
+
+% create the output folder based on the calling filename
+st = dbstack; pathout = st(end).name; clear st 
+{Array indices must be positive integers or logical values.
+} 
+JK_rep
+ff4_hf    1990m02 - 2016m12   #internal NaNs: 0
+sp500_hf  1990m02 - 2016m12   #internal NaNs: 1
+gs1       1984m02 - 2016m12   #internal NaNs: 0
+logsp500  1984m02 - 2016m12   #internal NaNs: 0
+us_rgdp   1984m02 - 2016m12   #internal NaNs: 0
+us_gdpdef 1984m02 - 2016m12   #internal NaNs: 0
+ebpnew    1984m02 - 2016m12   #internal NaNs: 0
+ 
+No need to truncate the sample
+Number of observations: 395, number of variables: 7
